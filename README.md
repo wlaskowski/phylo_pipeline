@@ -47,17 +47,7 @@ Optionally, if you want to try using the pipeline on a different set of proteome
 
 ## Output structure
 
-After successful execution, the pipeline produces following directory outputs:  
-
-.
-├── results
-│   ├── astral/
-│   ├── astral_pro/
-│   ├── consensus/
-│   ├── fasttree_paralogs/
-│   ├── iqtree/
-│   ├── mmseqs/
-│   └── msa/
+After successful execution, the pipeline produces `results` directory.  
 
 Species trees can be found in:
 - `astral/` -  species tree inferred from 1:1 orthologue gene trees 
