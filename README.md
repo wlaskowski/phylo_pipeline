@@ -45,4 +45,25 @@ Options:
 Optionally, if you want to try using the pipeline on a different set of proteomes:
 - Edit 'species.txt' to include new genome accessions.
 
+## Output structure
 
+After successful execution, the pipeline produces following directory outputs:  
+
+.
+├── results
+│   ├── astral/
+│   ├── astral_pro/
+│   ├── consensus/
+│   ├── fasttree_paralogs/
+│   ├── iqtree/
+│   ├── mmseqs/
+│   └── msa/
+
+Species trees can be found in:
+- `astral/` -  species tree inferred from 1:1 orthologue gene trees 
+- `astral_pro/` - species tree inferred from paralogue gene trees,
+- `consensus/` -  majority-rule consensus species tree from 1:1 orthologues.
+
+Gene trees can be found in:
+- `iqtree/` - gene trees inferred from 1:1 orthologues,
+- `fasttree_paralogs/` - gene trees inferred from paralog families.
