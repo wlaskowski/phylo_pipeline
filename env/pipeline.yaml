@@ -1,0 +1,16 @@
+name: phylo-pipeline
+channels:
+- conda-forge
+- bioconda
+dependencies:
+- python
+- biopython
+- ncbi-datasets-cli
+- mafft
+- iqtree
+- fasttree
+- mmseqs2
+- trimal
+- astral-tree
+- aster
+- openjdk
