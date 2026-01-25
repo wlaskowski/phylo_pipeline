@@ -38,7 +38,7 @@ Run:
 
 Options:
 - `-p` - print shell commands executed by Snakemake,
-- `-j \<N\>` - specify number of parallel jobs according to available CPU cores,
+- `-j` \<N\> - specify number of parallel jobs according to available CPU cores,
 - `--use-conda` - automatically create and use Conda environments used in the workflow.   
 
 Optionally, if you want to try using the pipeline on a different set of proteomes:
